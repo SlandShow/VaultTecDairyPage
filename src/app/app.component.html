@@ -1,0 +1,45 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<!--<div style="text-align:center">-->
+<div class="screen">
+
+  <h1>
+    Vault-Tec Dairy
+  </h1>
+
+  <div>
+    <p>Entry id:</p>
+    <input [(ngModel)]="entryId" type="text">
+    <br><br>
+    <button class="button" (click)="getEntryById()">Get by id</button>
+  </div>
+
+  <div *ngIf="error">
+    {{error.error.message}}
+  </div>
+
+  <div *ngIf="entry">
+    {{entry.title}}
+    <br>
+    {{entry.date}}
+  </div>
+
+  <div>
+    <br>
+    <button class="button" (click)="getAllEntries()">Show all current entries</button>
+  </div>
+
+  <div>
+    <p>List of entries:</p>
+    <li *ngFor="let entry of entries">
+      {{ entry.title }}
+      <br>
+      ({{ entry.date }})
+    </li>
+  </div>
+
+</div>
+
+
+
+
+

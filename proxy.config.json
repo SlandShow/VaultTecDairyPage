@@ -1,0 +1,16 @@
+{
+  "/api/entry/all": {
+    "target": "http://localhost:8080/VaultDairy/",
+    "secure": false,
+    "pathRewrite": {
+      "^/api/entry/all": "entry/all"
+    }
+  },
+  "/api/entry/current/*": {
+    "target": "http://localhost:8080/VaultDairy/",
+    "secure": false,
+    "pathRewrite": {
+      "^/api/entry/current": "entry/current/"
+    }
+  }
+}
