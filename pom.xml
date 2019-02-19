@@ -19,12 +19,6 @@
 
   <build>
 
-    <resources>
-      <resource>
-        <directory>dist</directory>
-      </resource>
-    </resources>
-
     <plugins>
       <plugin>
         <groupId>com.github.eirslett</groupId>
@@ -78,9 +72,9 @@
             <goals>
               <goal>npm</goal>
             </goals>
-            <phase>generate-resources</phase>
+            <phase>test</phase>
             <configuration>
-              <arguments>run test</arguments>
+              <arguments>run test --watch=false</arguments>
             </configuration>
           </execution>
 
