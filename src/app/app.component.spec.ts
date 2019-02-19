@@ -2,6 +2,8 @@ import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 import { EntryService } from './service/client/entry.service';
 import {HttpClientTestingModule} from '@angular/common/http/testing';
+import {FormsModule} from '@angular/forms';
+import {BrowserModule} from '@angular/platform-browser';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
@@ -10,7 +12,9 @@ describe('AppComponent', () => {
         AppComponent
       ],
       imports: [
-        HttpClientTestingModule
+        HttpClientTestingModule,
+        FormsModule,
+        BrowserModule
       ],
       providers: [
         EntryService
