@@ -38,4 +38,5 @@ Navigate to `http://localhost:4200/` 🔍
 1. [Angular](https://angular.io/ "Angular") 💡
 2. [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md) 💎
 3. [RxJs](https://angular.io/guide/rx-library "Async RxJs") 👻
+4. [Proxy config](https://juristr.com/blog/2016/11/configure-proxy-api-angular-cli/ "proxy configuration") ⚓
 
