@@ -1,6 +1,8 @@
 # ⚡ VaultTecDairyPage ⚡
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.1.
+Frontend part of Vault-Tec-Dairy project.
+
+*This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.1.*
 
 ## Project info
 [Vault-Tec-Dairy Backend](https://github.com/SlandShow/VaultTecDairy "backend part of project") 🔨
